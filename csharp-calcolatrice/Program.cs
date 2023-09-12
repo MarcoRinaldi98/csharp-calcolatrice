@@ -32,3 +32,6 @@ Console.WriteLine(minimo2);
 // definisco una variabile che conterrà il numero massimo tra due numeri
 int massimo1 = CalcoliHelper.NumeroMassimo(1, 2);
 Console.WriteLine(massimo1);
+// definisco una variabile che conterrà il numero massimo tra due numeri con la virgola
+double massimo2 = CalcoliHelper.NumeroMassimoDouble(1.4, 1.7);
+Console.WriteLine(massimo2);
