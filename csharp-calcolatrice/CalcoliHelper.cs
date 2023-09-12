@@ -150,13 +150,75 @@ namespace csharp_calcolatrice
             }
         }
 
-        // SUPERBONUS
-        // Prova generics di C# con somma di due numeri di tipo dinamico
-        public static T SommaNumeri<T>(T numero1, T numero2)
+        // SUPERBONUS prova generics di C#
+        // Somma di due numeri di tipo dinamico
+        public static T Somma<T>(T numero1, T numero2)
         {
             dynamic num1 = numero1;
             dynamic num2 = numero2;
             return num1 + num2;
+        }
+        // Differenza di due numeri di tipo dinamico
+        public static T Differenza<T>(T numero1, T numero2)
+        {
+            dynamic num1 = numero1;
+            dynamic num2 = numero2;
+            if (num1 > num2)
+            {
+                return num1 - num2;
+            }
+            else
+            {
+                return num2 - num1;
+            }
+        }
+        // Moltiplicazione di due numeri di tipo dinamico
+        public static T Moltiplicazione<T>(T numero1, T numero2)
+        {
+            dynamic num1 = numero1;
+            dynamic num2 = numero2;
+            return num1 * num2;
+        }
+        // Valore assoluto di un numero di tipo dinamico
+        public static T ValoreAssoluto<T>(T numero)
+        {
+            dynamic num = numero;
+            if (num > 0)
+            {
+                return num;
+            }
+            else
+            {
+                return -num;
+            }
+        }
+        // Minimo di due numeri di tipo dinamico
+        public static T Minimo<T>(T numero1, T numero2)
+        {
+            dynamic num1 = numero1;
+            dynamic num2 = numero2;
+            if (num1 < num2)
+            {
+                return num1;
+            }
+            else
+            {
+                return num2;
+            }
+        }
+        // Massimo di due numeri di tipo dinamico
+        public static T Massimo<T>(T numero1, T numero2)
+        {
+            dynamic num1 = numero1;
+            dynamic num2 = numero2;
+            if (num1 > num2)
+            {
+                return num1;
+            }
+            else
+            {
+                return num2;
+            }
         }
     }
 }

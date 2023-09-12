@@ -51,6 +51,33 @@ Console.WriteLine(elevamento4);
 
 // SUPERBONUS
 // Prova generics di C# con assegnamento ad una vaiabile la somma di due numeri di tipo dinamico
-// definisco una variabile che conterrà la somma di due numeri
-int sommaDinamica1 = CalcoliHelper.SommaNumeri(10, 20);
+// Somma di due numeri del tipo che imposto
+int sommaDinamica1 = CalcoliHelper.Somma(20, 10);
 Console.WriteLine(sommaDinamica1);
+double sommaDinamica2 = CalcoliHelper.Somma(2.40, 10);
+Console.WriteLine(sommaDinamica2);
+// Differenza tra due numeri del tipo che imposto
+int differenzaDinamica1 = CalcoliHelper.Differenza(20, 10);
+Console.WriteLine(differenzaDinamica1);
+double differenzaDinamica2 = CalcoliHelper.Differenza(2.40, 10);
+Console.WriteLine(differenzaDinamica2);
+// Somma di due numeri del tipo che imposto
+int moltiplicazioneDinamica1 = CalcoliHelper.Moltiplicazione(20, 10);
+Console.WriteLine(moltiplicazioneDinamica1);
+double moltiplicazioneDinamica2 = CalcoliHelper.Moltiplicazione(2.40, 10);
+Console.WriteLine(moltiplicazioneDinamica2);
+// Valore assoluto di un numero del tipo che imposto
+int valoreAssolutoDinamico1 = CalcoliHelper.ValoreAssoluto(3);
+Console.WriteLine(valoreAssolutoDinamico1);
+double valoreAssolutoDinamico2 = CalcoliHelper.ValoreAssoluto(-3);
+Console.WriteLine(valoreAssolutoDinamico2);
+// Minimo di due numeri del tipo che imposto
+int minimoDinamico1 = CalcoliHelper.Minimo(20, 10);
+Console.WriteLine(minimoDinamico1);
+double minimoDinamico2 = CalcoliHelper.Minimo(2.40, 10);
+Console.WriteLine(minimoDinamico2);
+// Massimo di due numeri del tipo che imposto
+int massimoDinamico1 = CalcoliHelper.Massimo(20, 10);
+Console.WriteLine(massimoDinamico1);
+double massimoDinamico2 = CalcoliHelper.Massimo(2.40, 10);
+Console.WriteLine(massimoDinamico2);
