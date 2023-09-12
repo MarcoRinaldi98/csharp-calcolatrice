@@ -23,3 +23,6 @@ Console.WriteLine(valoreAssoluto1);
 // definisco una variabile che conterrà il valore assoluto del numero con la virgola passato
 double valoreAssoluto2 = CalcoliHelper.ValoreAssolutoNumeroDouble(5.50);
 Console.WriteLine(valoreAssoluto2);
+// definisco una variabile che conterrà il numero minimo tra due numeri
+int minimo1 = CalcoliHelper.NumeroMinimo(1, 2);
+Console.WriteLine(minimo1);

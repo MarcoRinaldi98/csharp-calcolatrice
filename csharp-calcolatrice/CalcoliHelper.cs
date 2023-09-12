@@ -74,5 +74,17 @@ namespace csharp_calcolatrice
                 return -num;
             }
         }
+        // Metodo che calcola il minimo tra due numeri
+        public static int NumeroMinimo(int num1, int num2)
+        {
+            if (num1 < num2)
+            {
+                return num1;
+            }
+            else
+            {
+                return num2;
+            }
+        }
     }
 }
