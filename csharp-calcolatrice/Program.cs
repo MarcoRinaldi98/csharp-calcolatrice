@@ -20,3 +20,6 @@ Console.WriteLine(moltiplicazione2);
 // definisco una variabile che conterrà il valore assoluto del numero passato
 int valoreAssoluto1 = CalcoliHelper.ValoreAssolutoNumero(-10);
 Console.WriteLine(valoreAssoluto1);
+// definisco una variabile che conterrà il valore assoluto del numero con la virgola passato
+double valoreAssoluto2 = CalcoliHelper.ValoreAssolutoNumeroDouble(5.50);
+Console.WriteLine(valoreAssoluto2);

@@ -62,5 +62,17 @@ namespace csharp_calcolatrice
                 return -num;
             }
         }
+        // Metodo che calcola il valore assoluto di un numero con la virgola
+        public static double ValoreAssolutoNumeroDouble(double num)
+        {
+            if (num > 0)
+            {
+                return num;
+            }
+            else
+            {
+                return -num;
+            }
+        }
     }
 }
