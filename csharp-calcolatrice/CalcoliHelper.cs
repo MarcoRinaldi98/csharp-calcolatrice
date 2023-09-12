@@ -98,5 +98,17 @@ namespace csharp_calcolatrice
                 return num2;
             }
         }
+        // Metodo che calcola il massimo tra due numeri
+        public static int NumeroMassimo(int num1, int num2)
+        {
+            if (num1 > num2)
+            {
+                return num1;
+            }
+            else
+            {
+                return num2;
+            }
+        }
     }
 }
