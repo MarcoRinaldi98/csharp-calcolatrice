@@ -48,3 +48,9 @@ double elevamento3 = CalcoliHelper.ElevaAPotenza(2, 0);
 Console.WriteLine(elevamento3);
 double elevamento4 = CalcoliHelper.ElevaAPotenza(2, 3);
 Console.WriteLine(elevamento4);
+
+// SUPERBONUS
+// Prova generics di C# con assegnamento ad una vaiabile la somma di due numeri di tipo dinamico
+// definisco una variabile che conterrà la somma di due numeri
+int sommaDinamica1 = CalcoliHelper.SommaNumeri(10, 20);
+Console.WriteLine(sommaDinamica1);

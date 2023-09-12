@@ -149,5 +149,14 @@ namespace csharp_calcolatrice
                 return Math.Pow(baseNumero, esponente); // Restituisce il numero specificato (baseNumero) elevato alla potenza specificata (esponente).
             }
         }
+
+        // SUPERBONUS
+        // Prova generics di C# con somma di due numeri di tipo dinamico
+        public static T SommaNumeri<T>(T numero1, T numero2)
+        {
+            dynamic num1 = numero1;
+            dynamic num2 = numero2;
+            return num1 + num2;
+        }
     }
 }
