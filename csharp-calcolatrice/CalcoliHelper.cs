@@ -8,16 +8,17 @@ namespace csharp_calcolatrice
 {
     public static class CalcoliHelper
     {
+        // Metodo che calcola la somma di due numeri
         public static int CalcolaSommaNumeri(int num1, int num2) 
         {
             return num1 + num2;
         }
-
+        // Metodo che calcola la somma di due numeri con la virgola
         public static double CalcolaSommaNumeriDouble(double num1, double num2) 
         {  
             return num1 + num2; 
         }
-
+        // Metodo che calcola la differnza tra due numeri
         public static int DifferenzaNumeri(int num1, int num2)
         {
             if (num1 > num2)
@@ -28,7 +29,7 @@ namespace csharp_calcolatrice
                 return num2 - num1;
             }
         }
-
+        // Metodo che calcola la differnza tra due numeri con la virgola
         public static double DifferenzaNumeriDouble(double num1, double num2)
         {
             if (num1 > num2)
@@ -40,15 +41,26 @@ namespace csharp_calcolatrice
                 return num2 - num1;
             }
         }
-
+        // Metodo che calcola la moltiplicazione di due numeri
         public static int MoltiplicazioneNumeri(int num1, int num2)
         {
             return num1 * num2;
         }
-
+        // Metodo che calcola la moltiplicazione di due numeri con la virgola
         public static double MoltiplicazioneNumeriDouble(double num1, double num2)
         {
             return num1 * num2;
+        }
+        // Metodo che calcola il valore assoluto di un numero
+        public static int ValoreAssolutoNumero(int num)
+        {
+            if (num > 0)
+            {
+                return num;
+            } else
+            {
+                return -num;
+            }
         }
     }
 }
