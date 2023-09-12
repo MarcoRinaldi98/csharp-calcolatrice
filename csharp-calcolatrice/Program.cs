@@ -26,3 +26,6 @@ Console.WriteLine(valoreAssoluto2);
 // definisco una variabile che conterrà il numero minimo tra due numeri
 int minimo1 = CalcoliHelper.NumeroMinimo(1, 2);
 Console.WriteLine(minimo1);
+// definisco una variabile che conterrà il numero minimo tra due numeri con la virgola
+double minimo2 = CalcoliHelper.NumeroMinimoDouble(1.4, 1.7);
+Console.WriteLine(minimo2);
