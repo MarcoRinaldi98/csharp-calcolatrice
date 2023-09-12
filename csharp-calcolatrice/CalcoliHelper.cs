@@ -9,14 +9,14 @@ namespace csharp_calcolatrice
     public static class CalcoliHelper
     {
         // Metodo che calcola la somma di due numeri
-        public static int CalcolaSommaNumeri(int num1, int num2) 
+        public static int CalcolaSommaNumeri(int num1, int num2)
         {
             return num1 + num2;
         }
         // Metodo che calcola la somma di due numeri con la virgola
-        public static double CalcolaSommaNumeriDouble(double num1, double num2) 
-        {  
-            return num1 + num2; 
+        public static double CalcolaSommaNumeriDouble(double num1, double num2)
+        {
+            return num1 + num2;
         }
         // Metodo che calcola la differnza tra due numeri
         public static int DifferenzaNumeri(int num1, int num2)
@@ -24,8 +24,9 @@ namespace csharp_calcolatrice
             if (num1 > num2)
             {
                 return num1 - num2;
-            } else 
-            { 
+            }
+            else
+            {
                 return num2 - num1;
             }
         }
@@ -57,7 +58,8 @@ namespace csharp_calcolatrice
             if (num > 0)
             {
                 return num;
-            } else
+            }
+            else
             {
                 return -num;
             }
@@ -120,6 +122,31 @@ namespace csharp_calcolatrice
             else
             {
                 return num2;
+            }
+        }
+
+        // BONUS
+        //Metodo per l’elevamento a potenza che prende come parametri due numeri interi (base ed esponente) e ritorna la base elevata all’esponente con gestione numeri passati = 0
+        public static double ElevaAPotenza(int baseNumero, int esponente)
+        {
+            if (baseNumero == 0)
+            {
+                if (esponente == 0)
+                {
+                    return 1;
+                }
+                else
+                {
+                    return 0;
+                }
+            }
+            else if (esponente == 0)
+            {
+                return 1;
+            }
+            else
+            {
+                return Math.Pow(baseNumero, esponente); // Restituisce il numero specificato (baseNumero) elevato alla potenza specificata (esponente).
             }
         }
     }

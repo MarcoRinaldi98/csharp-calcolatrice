@@ -35,3 +35,16 @@ Console.WriteLine(massimo1);
 // definisco una variabile che conterrà il numero massimo tra due numeri con la virgola
 double massimo2 = CalcoliHelper.NumeroMassimoDouble(1.4, 1.7);
 Console.WriteLine(massimo2);
+
+// IL TIPO DI PRINCIPIO CHE VIENE APPLICATO QUANDO SCRIVI LO STESSO METODO PER TIPI DI PARAMETRO DIVERSI è IL POLIMORFISMO!
+
+//BONUS
+// definisco una variabile che conterrà il risultato tra due numeri elevati alla potenza
+double elevamento1 = CalcoliHelper.ElevaAPotenza(0, 0);
+Console.WriteLine(elevamento1);
+double elevamento2 = CalcoliHelper.ElevaAPotenza(0, 2);
+Console.WriteLine(elevamento2);
+double elevamento3 = CalcoliHelper.ElevaAPotenza(2, 0);
+Console.WriteLine(elevamento3);
+double elevamento4 = CalcoliHelper.ElevaAPotenza(2, 3);
+Console.WriteLine(elevamento4);
